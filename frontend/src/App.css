@@ -1,0 +1,69 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 350px; /* Increased width for better layout */
+}
+
+h1 {
+    color: #6a0dad; /* Purple color for the header */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6a0dad; /* Match summary and context headings */
+    margin: 15px 0; /* Spacing for headings */
+}
+
+input[type="file"] {
+    padding: 10px;
+    border: 2px solid #6a0dad;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+    border-color: #5d0c9e; /* Darker purple on hover */
+}
+
+button {
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; /* Make button full width */
+}
+
+button:hover {
+    background-color: #5d0c9e; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+audio {
+    margin-top: 20px;
+    border: 1px solid #6a0dad;
+    border-radius: 5px;
+    width: 100%; /* Make audio player full width */
+}
